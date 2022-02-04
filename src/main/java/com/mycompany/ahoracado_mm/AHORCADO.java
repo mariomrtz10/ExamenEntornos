@@ -19,7 +19,9 @@ public class AHORCADO {
             {"gato", "compañero de tom"},
             {"cangrejo", "amigo de la sirenita"}
         };
-        System.out.println("cambio")
+        System.out.println("cambio");
+        System.out.println();
+        System.out.println("Cambio 2");
         System.out.println("Adivina el animal! " + " PISTA: " + palabras[posicion][1]);
         Scanner sc = new Scanner(System.in);
         while (letraEncontrada == false) {
